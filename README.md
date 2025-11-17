@@ -1,10 +1,10 @@
 <!-- Banner -->
+
+
+# 👋 Hi, I'm <span style="color:#FF2D2D;">weakmafaka</span>
 <p align="left">
   <img src="https://raw.githubusercontent.com/weakmafaka/weakmafaka/main/banner.svg" width="100%" />
 </p>
-
-# 👋 Hi, I'm <span style="color:#FF2D2D;">weakmafaka</span>
-
 A minimalistic-oriented **RPO / Dev Automation developer** focused on:
 - streamlined release processes  
 - reliability & deployment automation  
