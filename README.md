@@ -1,11 +1,8 @@
 <!-- Banner -->
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jaro&size=40&pause=1000&color=970000&center=true&random=true&width=435&height=60&lines=weakmafaka)]
-A minimalistic-oriented **RPO / Dev Automation developer** focused on:
-- streamlined release processes  
-- reliability & deployment automation  
-- clean architecture and infrastructure tooling  
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Jaro&size=40&pause=1000&color=970000&center=true&random=true&width=435&height=60&lines=weakmafaka)
+
 <picture>
   <source
     srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
