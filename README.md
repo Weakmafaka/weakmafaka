@@ -1,7 +1,7 @@
 <!-- Banner -->
 
 
-# 👋 Hi, I'm <span style="color:#FF2D2D;">weakmafaka</span>
+# 👋 Hi, I'm <span style="color:#FF2D2D;" allign="center">weakmafaka</span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/weakmafaka/weakmafaka/main/banner.svg" width="100%" />
 </p>
