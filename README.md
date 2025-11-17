@@ -11,7 +11,7 @@ A minimalistic-oriented **RPO / Dev Automation developer** focused on:
 - clean architecture and infrastructure tooling  
 
 I build systems that **ship fast, break rarely, and scale cleanly**.
-
+![Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 ---
 
 ## ⚡ What I Do
