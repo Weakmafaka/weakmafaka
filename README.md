@@ -1,7 +1,7 @@
 <!-- Banner -->
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jaro&size=40&pause=1000&color=970000&center=true&multiline=true&random=true&width=435&height=60&lines=weakmafaka)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jaro&size=40&pause=1000&color=970000&center=true&random=true&width=435&height=60&lines=weakmafaka&repeat=false)](https://git.io/typing-svg)
 A minimalistic-oriented **RPO / Dev Automation developer** focused on:
 - streamlined release processes  
 - reliability & deployment automation  
