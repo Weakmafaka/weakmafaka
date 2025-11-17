@@ -2,7 +2,7 @@
 
 
 # 👋 Hi, I'm <span style="color:#FF2D2D;">weakmafaka</span>
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/weakmafaka/weakmafaka/main/banner.svg" width="100%" />
 </p>
 A minimalistic-oriented **RPO / Dev Automation developer** focused on:
