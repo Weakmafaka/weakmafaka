@@ -11,7 +11,8 @@ A minimalistic-oriented **RPO / Dev Automation developer** focused on:
 - clean architecture and infrastructure tooling  
 
 I build systems that **ship fast, break rarely, and scale cleanly**.
-https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&quote=I%20don%27t%20like%20the%20mess%20that%27s%20going%20on%20in%20my%20head.&author=weakmafaka
+
+![Quotes]([https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark](https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight&quote=I%20don%27t%20like%20the%20mess%20that%27s%20going%20on%20in%20my%20head.&author=weakmafaka))
 ---
 
 ## ⚡ What I Do
