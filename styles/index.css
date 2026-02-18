@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'bbh';
-  src: url('../src/fonts/BBHSansBogle-Regular.ttf');
-
+  src: url('../src/fonts/BBHSansBogle-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'medium';
-  src: url('../src/fonts/Medium.otf');
+  src: url('../src/fonts/Medium.otf') format('opentype');
 }
 
 @font-face {
-
   font-family: 'bah';
-  src: url('../src/fonts/bah.ttf');
+  src: url('../src/fonts/bah.ttf') format('truetype');
 }
 
 html,
