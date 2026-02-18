@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой сайт</title>
+  <link rel="stylesheet" href="/styles/index.css">
+</head>
+
+<header>
+  <div class="header-container">
+    <a class="container-block" href="#about">
+      <span class="block-text">
+        <span class="block-text-inner">
+          <span class="text-default">about me</span>
+          <span class="text-hover">about me</span>
+        </span>
+      </span>
+    </a>
+    <a class="container-block" href="#skills">
+      <span class="block-text">
+        <span class="block-text-inner">
+          <span class="text-default">skills</span>
+          <span class="text-hover">skills</span>
+        </span>
+      </span>
+    </a>
+    <a class="container-block" href="#projects">
+      <span class="block-text">
+        <span class="block-text-inner">
+          <span class="text-default">projects</span>
+          <span class="text-hover">projects</span>
+        </span>
+      </span>
+    </a>
+    <a class="container-block" href="#contacts">
+      <span class="block-text">
+        <span class="block-text-inner">
+          <span class="text-default">contacts</span>
+          <span class="text-hover">contacts</span>
+        </span>
+      </span>
+    </a>
+  </div>
+</header>
+
+<body>
+  <div class="cursor-canon" aria-hidden="true">
+    <div class="cursor-trail" id="cursorTrail"></div>
+    <div class="cursor-drop" id="cursorDrop"></div>
+  </div>
+  <div class="container-preview">
+    <div class="preview">
+      <span class="text-preview">Hi, i’m dan</span>
+      <div class="person-section">
+        <div class="container-person">
+          <div class="person-effect"></div>
+        </div>
+        <div class="person-wrapper">
+          <img class="person" src="src/img/avatar.png" alt="">
+          <span class="text-person">programmer</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- <div class="transition">
+    <div class="transition-stripe transition-stripe-1"></div>
+    <div class="transition-stripe transition-stripe-2"></div>
+    <div class="transition-stripe transition-stripe-3"></div>
+  </div> -->
+
+  <div id="about" class="container-about">
+    <div class="person-effect-about person-effect-about-1"></div>
+    <div class="person-effect-about person-effect-about-2"></div>
+    <div class="about">
+      <div class="head-about">about me</div>
+      <div class="text-about">I'm Daniel, I'm 21.
+        <br />I have been in the programming field for 5 years now.
+        <br />Graduated from IT Top College in the area of ​​software development.
+        <br />Now I am receiving higher education at IT Top.
+        <br />I like to automate things, create unique and unusual projects.
+        <br />Let's create something together!
+      </div>
+    </div>
+    <img src="/src/img/energy.png" class="energy-about">
+    <img src="/src/img/mac.png" alt="" class="mac-about">
+    <img src="/src/img/shoes.png" alt="" class="shoes-about">
+    <img src="/src/img/cube.png" alt="" class="cube-about">
+  </div>
+
+  <div id="skills" class="container-skills">
+    <div class="person-effect-skills person-effect-skills-1"></div>
+    <div class="head-skills">skills</div>
+    <div class="skills-card">
+      <div class="card-1">
+        <div class="header-card">Languages</div>
+        <div class="language-card"><span class="lang-name">C#</span><span class="lang-level">confident</span></div>
+        <div class="text-card">The main language for<br /> backend development</div>
+        <div class="card-stripe"></div>
+        <div class="language-card"><span class="lang-name">Python</span><span class="lang-level">confident</span></div>
+        <div class="text-card">Scripts, bots, utilities</div>
+        <div class="card-stripe"></div>
+        <div class="language-card"><span class="lang-name">HTML/CSS</span><span class="lang-level">base</span></div>
+        <div class="text-card">Basic interface edits</div>
+      </div>
+      <div class="card-2">
+        <div class="header-card">Frameworks</div>
+        <div class="language-card"><span class="lang-name">C#</span><span class="lang-level">confident</span></div>
+        <div class="text-card">ASP.net, WPF/WF <br> Xamarin</div>
+        <div class="card-stripe"></div>
+        <div class="language-card"><span class="lang-name">Python</span><span class="lang-level">confident</span></div>
+        <div class="text-card">Aiogram, bs4, requests, asyncpg</div>
+        <div class="card-stripe"></div>
+        <div class="language-card"><span class="lang-name">HTML/CSS</span><span class="lang-level">base</span></div>
+        <div class="text-card">Bootstrap, UIKit</div>
+      </div>
+      <div class="card-3">
+        <div class="header-card header-card-tools">Programmer tools</div>
+        <div class="card-stripe"></div>
+        <div class="logo-card-tools">
+          <img src="src/img/vs.png" class="tool-logo" alt="Visual Studio">
+          <img src="src/img/vscode.png" class="tool-logo" alt="Visual Studio Code">
+          <img src="src/img/pycharm.png" class="tool-logo" alt="PyCharm">
+          <img src="src/img/docker.png" class="tool-logo" alt="Docker">
+          <img src="src/img/postgres.png" class="tool-logo" alt="PostgreSQL">
+        </div>
+      </div>
+      <div class="card-4">
+        <div class="header-card">Soft skills</div>
+        <div class="language-card"><span class="lang-name">Learning ability</span></div>
+        <div class="text-card">I quickly master new technologies when necessary
+          <br>I accept criticism and feedback positively
+          <br>It's interesting to grow as a backend developer
+        </div>
+        <div class="card-stripe"></div>
+        <div class="language-card"><span class="lang-name">Independence</span></div>
+        <div class="text-card">Searching for solutions through documentation and other resources
+          <br>Ability to independently understand the code base
+        </div>
+        <div class="card-stripe"></div>
+        <div class="language-card"><span class="lang-name">Communication</span></div>
+        <div class="text-card">I'm not afraid to ask clarifying questions Experience communicating with non-technical
+          specialists Teamwork</div>
+      </div>
+      <div class="card-5">
+        <div class="header-card">Hard skills</div>
+        <div class="language-card"><span class="lang-name">Databases</span></div>
+        <div class="text-card">PostgreSQL
+          <br>SQLite
+          <br>Design of structure for product tasks
+          <br> Basic SQL queries
+        </div>
+        <div class="card-stripe"></div>
+        <div class="language-card"><span class="lang-name">Tools and environment</span></div>
+        <div class="text-card">Git
+          <br>Docker (base - launch and deployment)
+          <br>Linux
+          <br>Testing
+        </div>
+        <div class="card-stripe"></div>
+        <div class="language-card"><span class="lang-name">Working with APIs and integrations</span></div>
+        <div class="text-card">Swagger/OpenAPI
+          <br>JSON
+          <br>Integration of third-party services
+        </div>
+      </div>
+    </div>
+    <img src="/src/img/brain.png" class="brain-skills">
+    <img src="/src/img/lamp.png" class="lamp-skills">
+  </div>
+
+  <div id="projects" class="container-projects">
+    <div class="person-effect-projects person-effect-projects-1"></div>
+    <div class="head-projects">projects</div>
+    <div class="projects-table-wrapper">
+      <table class="projects-table">
+        <tbody>
+          <tr class="projects-header">
+            <td>-type-</td>
+            <td>-project-</td>
+            <td>-area of responsibility-</td>
+          </tr>
+          <tr class="separator">
+            <td colspan="3"></td>
+          </tr>
+          <tr data-img="src/img/avatar.png" data-link="https://example.com/yantarik">
+            <td>Telegram</td>
+            <td>Yantarik</td>
+            <td>Development</td>
+          </tr>
+          <tr class="separator">
+            <td colspan="3"></td>
+          </tr>
+          <tr data-img="/src/img/it_top.png" data-link="https://example.com/it-top">
+            <td>Telegram</td>
+            <td>IT TOP Journal</td>
+            <td>Development</td>
+          </tr>
+          <tr class="separator">
+            <td colspan="3"></td>
+          </tr>
+          <tr data-img="/src/img/group_notes.png" data-link="https://example.com/group-notes">
+            <td>Telegram</td>
+            <td>Group Notes</td>
+            <td>Development</td>
+          </tr>
+          <tr class="separator">
+            <td colspan="3"></td>
+          </tr>
+          <tr data-img="/src/img/library.png" data-link="https://example.com/library">
+            <td>Application</td>
+            <td>Library software</td>
+            <td>Development</td>
+          </tr>
+          <tr class="separator">
+            <td colspan="3"></td>
+          </tr>
+          <tr data-img="/src/img/smart_home.png" data-link="https://example.com/smart-home">
+            <td>Application</td>
+            <td>Smart Home</td>
+            <td>Development</td>
+          </tr>
+          <tr class="separator">
+            <td colspan="3"></td>
+          </tr>
+          <tr data-img="/src/img/voting.png" data-link="https://example.com/voting-website">
+            <td>Website</td>
+            <td>Voting Website</td>
+            <td>Website layout</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+<footer id="contacts">
+  <div class="person-effect-footer person-effect-footer-1"></div>
+  <div class="person-effect-footer person-effect-footer-2"></div>
+  <div class="head-contacts">contacts</div>
+  <div class="contact"><a href="https://t.me/lisov18" target="_blank" rel="noopener">Telegram</a></div>
+  <div class="contact"><a href="mailto:kupreev500@icloud.com">E-mail</a></div>
+  <div class="contact"><a href="tel:+79009376514">+7 900 937 65 14</a></div>
+
+  <img src="/src/img/off.png" class="off-contacts">
+</footer>
+
+<script src="script/cursor.js"></script>
+<script src="script/projects.js"></script>
+
+</html>
