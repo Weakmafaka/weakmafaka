@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'bbh';
-  src: url('../src/fonts/Molot.otf') format('opentype');
+  src: url('../src/fonts/BBHSansBogle-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -23,9 +23,14 @@
   src: url('../src/fonts/involve.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'ghetto';
+  src: url('../src/fonts/SOUTHGHETTO.ttf') format('truetype');
+}
+
 :root {
   --ru-font-display: 'molot';
-  --ru-font-heading: 'medium', sans-serif;
+  --ru-font-heading: 'ghetto', sans-serif;
   --ru-font-body: 'involve', sans-serif;
 
   /* RU typography controls: edit these values for Russian layout tuning */
