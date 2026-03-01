@@ -1,8 +1,6 @@
 @font-face {
   font-family: 'bbh';
-  src: url('../src/fonts/BBHSansBogle-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('../src/fonts/Molot.otf') format('opentype');
 }
 
 @font-face {
@@ -13,6 +11,52 @@
 @font-face {
   font-family: 'bah';
   src: url('../src/fonts/bah.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'molot';
+  src: url('../src/fonts/Molot.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'involve';
+  src: url('../src/fonts/involve.ttf') format('truetype');
+}
+
+:root {
+  --ru-font-display: 'molot';
+  --ru-font-heading: 'medium', sans-serif;
+  --ru-font-body: 'involve', sans-serif;
+
+  /* RU typography controls: edit these values for Russian layout tuning */
+  --ru-size-nav: 20px;
+  --ru-size-switch: 15px;
+  --ru-letter-nav: 1px;
+  --ru-size-preview: 155px;
+  --ru-letter-preview: 18px;
+  --ru-size-person-role: 14px;
+  --ru-letter-person-role: 1px;
+  --ru-size-section-head: 40px;
+  --ru-letter-section-head: 4px;
+  --ru-size-about: 20px;
+  --ru-line-about: 32px;
+  --ru-letter-about: 2px;
+  --ru-size-card-head: 21px;
+  --ru-line-card-head: 32px;
+  --ru-letter-card-head: 2px;
+  --ru-size-card-label: 21px;
+  --ru-line-card-label: 32px;
+  --ru-letter-card-label: 2px;
+  --ru-size-card-text: 15px;
+  --ru-line-card-text: 24px;
+  --ru-letter-card-text: 1.5px;
+  --ru-size-projects-table: 19px;
+  --ru-line-projects-table: 1.45;
+  --ru-line-projects-td: 2.2;
+  --ru-letter-projects-table: 1.2px;
+  --ru-size-projects-header: 16px;
+  --ru-size-contact: 22px;
+  --ru-letter-contact: 4px;
 }
 
 html,
@@ -26,6 +70,106 @@ html {
   background-color: black;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+}
+
+html[lang='ru'] .text-preview {
+  font-family: var(--ru-font-display);
+  font-size: var(--ru-size-preview);
+  letter-spacing: var(--ru-letter-preview);
+}
+
+html[lang='ru'] .container-block,
+html[lang='ru'] .lang-switch,
+html[lang='ru'] .text-person,
+html[lang='ru'] .head-about,
+html[lang='ru'] .head-skills,
+html[lang='ru'] .head-projects,
+html[lang='ru'] .head-contacts {
+  font-family: var(--ru-font-heading);
+}
+
+html[lang='ru'] .container-block {
+  font-size: var(--ru-size-nav);
+  letter-spacing: var(--ru-letter-nav);
+}
+
+html[lang='ru'] .lang-switch {
+  font-size: var(--ru-size-switch);
+  letter-spacing: var(--ru-letter-nav);
+}
+
+html[lang='ru'] .text-person {
+  font-size: var(--ru-size-person-role);
+  letter-spacing: var(--ru-letter-person-role);
+}
+
+html[lang='ru'] .head-about,
+html[lang='ru'] .head-skills,
+html[lang='ru'] .head-projects,
+html[lang='ru'] .head-contacts {
+  font-size: var(--ru-size-section-head);
+  letter-spacing: var(--ru-letter-section-head);
+}
+
+html[lang='ru'] .head-about,
+html[lang='ru'] .head-skills,
+html[lang='ru'] .head-projects,
+html[lang='ru'] .head-contacts,
+html[lang='ru'] .header-card,
+html[lang='ru'] .projects-header {
+  font-weight: 100;
+}
+
+html[lang='ru'] .text-about,
+html[lang='ru'] .header-card,
+html[lang='ru'] .language-card,
+html[lang='ru'] .text-card,
+html[lang='ru'] .projects-table,
+html[lang='ru'] .contact {
+  font-family: var(--ru-font-body);
+}
+
+html[lang='ru'] .text-about {
+  font-size: var(--ru-size-about);
+  line-height: var(--ru-line-about);
+  letter-spacing: var(--ru-letter-about);
+}
+
+html[lang='ru'] .header-card {
+  font-size: var(--ru-size-card-head);
+  line-height: var(--ru-line-card-head);
+  letter-spacing: var(--ru-letter-card-head);
+}
+
+html[lang='ru'] .language-card {
+  font-size: var(--ru-size-card-label);
+  line-height: var(--ru-line-card-label);
+  letter-spacing: var(--ru-letter-card-label);
+}
+
+html[lang='ru'] .text-card {
+  font-size: var(--ru-size-card-text);
+  line-height: var(--ru-line-card-text);
+  letter-spacing: var(--ru-letter-card-text);
+}
+
+html[lang='ru'] .projects-table {
+  font-size: var(--ru-size-projects-table);
+  line-height: var(--ru-line-projects-table);
+  letter-spacing: var(--ru-letter-projects-table);
+}
+
+html[lang='ru'] .projects-table td {
+  line-height: var(--ru-line-projects-td);
+}
+
+html[lang='ru'] .projects-header {
+  font-size: var(--ru-size-projects-header);
+}
+
+html[lang='ru'] .contact {
+  font-size: var(--ru-size-contact);
+  letter-spacing: var(--ru-letter-contact);
 }
 
 .cursor-canon {
@@ -115,10 +259,15 @@ html {
   pointer-events: none;
 }
 
+header {
+  position: relative;
+  z-index: 120;
+}
+
 .header-container {
   width: 100%;
   height: 32px;
-  overflow: hidden;
+  overflow: visible;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -128,6 +277,14 @@ html {
   padding-left: 80px;
   padding-right: 80px;
   box-sizing: border-box;
+}
+
+.header-right-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 28px;
+  position: relative;
+  z-index: 120;
 }
 
 .container-block {
@@ -179,6 +336,51 @@ html {
   align-items: center;
 }
 
+.lang-switch {
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 120;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 13px;
+  font-family: medium;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1px;
+  cursor: crosshair;
+  transition: box-shadow 0.25s ease, color 0.25s ease;
+}
+
+.lang-switch:hover {
+  box-shadow: 0 0 10px rgba(148, 3, 46, 0.35);
+}
+
+.lang-switch-option {
+  color: rgba(255, 255, 255, 0.64);
+  transition: color 0.2s ease;
+  pointer-events: none;
+}
+
+.lang-switch-option.active {
+  color: #94032E;
+}
+
+.lang-switch-divider {
+  color: rgba(255, 255, 255, 0.52);
+  pointer-events: none;
+}
+
 .preview {
   width: 100%;
   text-align: center;
@@ -190,7 +392,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  font-size: 220px;
+  font-size: 180px;
   font-family: bbh;
   font-weight: 400;
   letter-spacing: 30px;

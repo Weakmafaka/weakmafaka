@@ -13,35 +13,42 @@
     <a class="container-block" href="#about">
       <span class="block-text">
         <span class="block-text-inner">
-          <span class="text-default">about me</span>
-          <span class="text-hover">about me</span>
+          <span class="text-default" data-i18n="nav_about">about me</span>
+          <span class="text-hover" data-i18n="nav_about">about me</span>
         </span>
       </span>
     </a>
     <a class="container-block" href="#skills">
       <span class="block-text">
         <span class="block-text-inner">
-          <span class="text-default">skills</span>
-          <span class="text-hover">skills</span>
+          <span class="text-default" data-i18n="nav_skills">skills</span>
+          <span class="text-hover" data-i18n="nav_skills">skills</span>
         </span>
       </span>
     </a>
     <a class="container-block" href="#projects">
       <span class="block-text">
         <span class="block-text-inner">
-          <span class="text-default">projects</span>
-          <span class="text-hover">projects</span>
+          <span class="text-default" data-i18n="nav_projects">projects</span>
+          <span class="text-hover" data-i18n="nav_projects">projects</span>
         </span>
       </span>
     </a>
-    <a class="container-block" href="#contacts">
-      <span class="block-text">
-        <span class="block-text-inner">
-          <span class="text-default">contacts</span>
-          <span class="text-hover">contacts</span>
+    <div class="header-right-controls">
+      <a class="container-block" href="#contacts">
+        <span class="block-text">
+          <span class="block-text-inner">
+            <span class="text-default" data-i18n="nav_contacts">contacts</span>
+            <span class="text-hover" data-i18n="nav_contacts">contacts</span>
+          </span>
         </span>
-      </span>
-    </a>
+      </a>
+      <button class="lang-switch" id="langSwitch" type="button" aria-label="Switch language">
+        <span class="lang-switch-option" data-lang-value="ru">RU</span>
+        <span class="lang-switch-divider">/</span>
+        <span class="lang-switch-option" data-lang-value="en">EN</span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -52,14 +59,14 @@
   </div>
   <div class="container-preview">
     <div class="preview">
-      <span class="text-preview">Hi, i’m dan</span>
+      <span class="text-preview" data-i18n="preview_title">Hi, i,sm dan</span>
       <div class="person-section">
         <div class="container-person">
           <div class="person-effect"></div>
         </div>
         <div class="person-wrapper">
           <img class="person" src="src/img/avatar.png" alt="">
-          <span class="text-person">programmer</span>
+          <span class="text-person" data-i18n="preview_role">programmer</span>
         </div>
       </div>
 
@@ -76,8 +83,8 @@
     <div class="person-effect-about person-effect-about-1"></div>
     <div class="person-effect-about person-effect-about-2"></div>
     <div class="about">
-      <div class="head-about">about me</div>
-      <div class="text-about">I'm Daniel, I'm 21.
+      <div class="head-about" data-i18n="about_head">about me</div>
+      <div class="text-about" data-i18n="about_text">I'm Daniel, I'm 21.
         <br />I have been in the programming field for 5 years now.
         <br />Graduated from IT Top College in the area of ​​software development.
         <br />Now I am receiving higher education at IT Top.
@@ -93,32 +100,39 @@
 
   <div id="skills" class="container-skills">
     <div class="person-effect-skills person-effect-skills-1"></div>
-    <div class="head-skills">skills</div>
+    <div class="head-skills" data-i18n="skills_head">skills</div>
     <div class="skills-card">
       <div class="card-1">
-        <div class="header-card">Languages</div>
-        <div class="language-card"><span class="lang-name">C#</span><span class="lang-level">confident</span></div>
-        <div class="text-card">The main language for<br /> backend development</div>
+        <div class="header-card" data-i18n="skills_languages_head">Languages</div>
+        <div class="language-card"><span class="lang-name">C#</span><span class="lang-level"
+            data-i18n="skills_level_confident">confident</span></div>
+        <div class="text-card" data-i18n="skills_languages_csharp_text">The main language for<br /> backend development
+        </div>
         <div class="card-stripe"></div>
-        <div class="language-card"><span class="lang-name">Python</span><span class="lang-level">confident</span></div>
-        <div class="text-card">Scripts, bots, utilities</div>
+        <div class="language-card"><span class="lang-name">Python</span><span class="lang-level"
+            data-i18n="skills_level_confident">confident</span></div>
+        <div class="text-card" data-i18n="skills_languages_python_text">Scripts, bots, utilities</div>
         <div class="card-stripe"></div>
-        <div class="language-card"><span class="lang-name">HTML/CSS</span><span class="lang-level">base</span></div>
-        <div class="text-card">Basic interface edits</div>
+        <div class="language-card"><span class="lang-name">HTML/CSS</span><span class="lang-level"
+            data-i18n="skills_level_base">base</span></div>
+        <div class="text-card" data-i18n="skills_languages_html_text">Basic interface edits</div>
       </div>
       <div class="card-2">
-        <div class="header-card">Frameworks</div>
-        <div class="language-card"><span class="lang-name">C#</span><span class="lang-level">confident</span></div>
-        <div class="text-card">ASP.net, WPF/WF <br> Xamarin</div>
+        <div class="header-card" data-i18n="skills_frameworks_head">Frameworks</div>
+        <div class="language-card"><span class="lang-name">C#</span><span class="lang-level"
+            data-i18n="skills_level_confident">confident</span></div>
+        <div class="text-card" data-i18n="skills_frameworks_csharp_text">ASP.net, WPF/WF <br> Xamarin</div>
         <div class="card-stripe"></div>
-        <div class="language-card"><span class="lang-name">Python</span><span class="lang-level">confident</span></div>
-        <div class="text-card">Aiogram, bs4, requests, asyncpg</div>
+        <div class="language-card"><span class="lang-name">Python</span><span class="lang-level"
+            data-i18n="skills_level_confident">confident</span></div>
+        <div class="text-card" data-i18n="skills_frameworks_python_text">Aiogram, bs4, requests, asyncpg</div>
         <div class="card-stripe"></div>
-        <div class="language-card"><span class="lang-name">HTML/CSS</span><span class="lang-level">base</span></div>
-        <div class="text-card">Bootstrap, UIKit</div>
+        <div class="language-card"><span class="lang-name">HTML/CSS</span><span class="lang-level"
+            data-i18n="skills_level_base">base</span></div>
+        <div class="text-card" data-i18n="skills_frameworks_html_text">Bootstrap, UIKit</div>
       </div>
       <div class="card-3">
-        <div class="header-card header-card-tools">Programmer tools</div>
+        <div class="header-card header-card-tools" data-i18n="skills_tools_head">Programmer tools</div>
         <div class="card-stripe"></div>
         <div class="logo-card-tools">
           <img src="src/img/vs.png" class="tool-logo" alt="Visual Studio">
@@ -129,40 +143,48 @@
         </div>
       </div>
       <div class="card-4">
-        <div class="header-card">Soft skills</div>
-        <div class="language-card"><span class="lang-name">Learning ability</span></div>
-        <div class="text-card">I quickly master new technologies when necessary
+        <div class="header-card" data-i18n="skills_soft_head">Soft skills</div>
+        <div class="language-card"><span class="lang-name" data-i18n="skills_soft_learning_head">Learning ability</span>
+        </div>
+        <div class="text-card" data-i18n="skills_soft_learning_text">I quickly master new technologies when necessary
           <br>I accept criticism and feedback positively
           <br>It's interesting to grow as a backend developer
         </div>
         <div class="card-stripe"></div>
-        <div class="language-card"><span class="lang-name">Independence</span></div>
-        <div class="text-card">Searching for solutions through documentation and other resources
+        <div class="language-card"><span class="lang-name" data-i18n="skills_soft_independence_head">Independence</span>
+        </div>
+        <div class="text-card" data-i18n="skills_soft_independence_text">Searching for solutions through documentation
+          and other resources
           <br>Ability to independently understand the code base
         </div>
         <div class="card-stripe"></div>
-        <div class="language-card"><span class="lang-name">Communication</span></div>
-        <div class="text-card">I'm not afraid to ask clarifying questions Experience communicating with non-technical
-          specialists Teamwork</div>
+        <div class="language-card"><span class="lang-name"
+            data-i18n="skills_soft_communication_head">Communication</span></div>
+        <div class="text-card" data-i18n="skills_soft_communication_text">I'm not afraid to ask clarifying questions
+          <br>Experience communicating with non-technical specialists
+          <br>Teamwork
+        </div>
       </div>
       <div class="card-5">
-        <div class="header-card">Hard skills</div>
-        <div class="language-card"><span class="lang-name">Databases</span></div>
-        <div class="text-card">PostgreSQL
+        <div class="header-card" data-i18n="skills_hard_head">Hard skills</div>
+        <div class="language-card"><span class="lang-name" data-i18n="skills_hard_databases_head">Databases</span></div>
+        <div class="text-card" data-i18n="skills_hard_databases_text">PostgreSQL
           <br>SQLite
           <br>Design of structure for product tasks
           <br> Basic SQL queries
         </div>
         <div class="card-stripe"></div>
-        <div class="language-card"><span class="lang-name">Tools and environment</span></div>
-        <div class="text-card">Git
+        <div class="language-card"><span class="lang-name" data-i18n="skills_hard_tools_head">Tools and
+            environment</span></div>
+        <div class="text-card" data-i18n="skills_hard_tools_text">Git
           <br>Docker (base - launch and deployment)
           <br>Linux
           <br>Testing
         </div>
         <div class="card-stripe"></div>
-        <div class="language-card"><span class="lang-name">Working with APIs and integrations</span></div>
-        <div class="text-card">Swagger/OpenAPI
+        <div class="language-card"><span class="lang-name" data-i18n="skills_hard_api_head">Working with APIs and
+            integrations</span></div>
+        <div class="text-card" data-i18n="skills_hard_api_text">Swagger/OpenAPI
           <br>JSON
           <br>Integration of third-party services
         </div>
@@ -174,62 +196,62 @@
 
   <div id="projects" class="container-projects">
     <div class="person-effect-projects person-effect-projects-1"></div>
-    <div class="head-projects">projects</div>
+    <div class="head-projects" data-i18n="projects_head">projects</div>
     <div class="projects-table-wrapper">
       <table class="projects-table">
         <tbody>
           <tr class="projects-header">
-            <td>-type-</td>
-            <td>-project-</td>
-            <td>-area of responsibility-</td>
+            <td data-i18n="projects_table_type">-type-</td>
+            <td data-i18n="projects_table_project">-project-</td>
+            <td data-i18n="projects_table_role">-area of responsibility-</td>
           </tr>
           <tr class="separator">
             <td colspan="3"></td>
           </tr>
           <tr data-img="src/img/yantarik.png" data-link="https://github.com/Weakmafaka/YantarikBot">
-            <td>Telegram</td>
-            <td>Yantarik</td>
-            <td>Development</td>
+            <td data-i18n="projects_row_1_type">Telegram</td>
+            <td data-i18n="projects_row_1_project">Yantarik</td>
+            <td data-i18n="projects_row_1_role">Development</td>
           </tr>
           <tr class="separator">
             <td colspan="3"></td>
           </tr>
           <tr data-img="src/img/it_top.png" data-link="https://example.com/it-top">
-            <td>Telegram</td>
-            <td>IT TOP Journal</td>
-            <td>Development</td>
+            <td data-i18n="projects_row_2_type">Telegram</td>
+            <td data-i18n="projects_row_2_project">IT TOP Journal</td>
+            <td data-i18n="projects_row_2_role">Development</td>
           </tr>
           <tr class="separator">
             <td colspan="3"></td>
           </tr>
           <tr data-img="src/img/group_notes.png" data-link="https://example.com/group-notes">
-            <td>Telegram</td>
-            <td>Group Notes</td>
-            <td>Development</td>
+            <td data-i18n="projects_row_3_type">Telegram</td>
+            <td data-i18n="projects_row_3_project">Group Notes</td>
+            <td data-i18n="projects_row_3_role">Development</td>
           </tr>
           <tr class="separator">
             <td colspan="3"></td>
           </tr>
           <tr data-img="src/img/library.png" data-link="https://example.com/library">
-            <td>Application</td>
-            <td>Library software</td>
-            <td>Development</td>
+            <td data-i18n="projects_row_4_type">Application</td>
+            <td data-i18n="projects_row_4_project">Library software</td>
+            <td data-i18n="projects_row_4_role">Development</td>
           </tr>
           <tr class="separator">
             <td colspan="3"></td>
           </tr>
           <tr data-img="src/img/smart_home.png" data-link="https://example.com/smart-home">
-            <td>Application</td>
-            <td>Smart Home</td>
-            <td>Development</td>
+            <td data-i18n="projects_row_5_type">Application</td>
+            <td data-i18n="projects_row_5_project">Smart Home</td>
+            <td data-i18n="projects_row_5_role">Development</td>
           </tr>
           <tr class="separator">
             <td colspan="3"></td>
           </tr>
           <tr data-img="src/img/voting.png" data-link="https://example.com/voting-website">
-            <td>Website</td>
-            <td>Voting Website</td>
-            <td>Website layout</td>
+            <td data-i18n="projects_row_6_type">Website</td>
+            <td data-i18n="projects_row_6_project">Voting Website</td>
+            <td data-i18n="projects_row_6_role">Website layout</td>
           </tr>
         </tbody>
       </table>
@@ -240,9 +262,10 @@
 <footer id="contacts">
   <div class="person-effect-footer person-effect-footer-1"></div>
   <div class="person-effect-footer person-effect-footer-2"></div>
-  <div class="head-contacts">contacts</div>
-  <div class="contact"><a href="https://t.me/lisov18" target="_blank" rel="noopener">Telegram</a></div>
-  <div class="contact"><a href="mailto:kupreev500@icloud.com">E-mail</a></div>
+  <div class="head-contacts" data-i18n="contacts_head">contacts</div>
+  <div class="contact"><a href="https://t.me/lisov18" target="_blank" rel="noopener"
+      data-i18n="contacts_telegram">Telegram</a></div>
+  <div class="contact"><a href="mailto:kupreev500@icloud.com" data-i18n="contacts_mail">E-mail</a></div>
   <div class="contact"><a href="tel:+79009376514">+7 900 937 65 14</a></div>
 
   <img src="src/img/off.png" class="off-contacts">
@@ -250,5 +273,6 @@
 
 <script src="script/cursor.js"></script>
 <script src="script/projects.js"></script>
+<script src="script/language.js"></script>
 
 </html>
