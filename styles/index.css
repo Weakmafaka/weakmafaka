@@ -813,17 +813,18 @@ header {
 }
 
 .header-card-tools {
+  flex: 0 1 auto;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 50px;
 }
 
 .logo-card-tools {
-  width: 50px;
+  width: auto;
   height: 50px;
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
-
   gap: 30px;
   margin-right: 50px;
 }
@@ -834,9 +835,11 @@ header {
 }
 
 .card-3 .card-stripe {
+  flex: 1 1 80px;
   height: 2px;
   background: #94032E;
-  width: 150px;
+  width: auto;
+  min-width: 80px;
   margin-left: 10px;
 }
 
