@@ -52,11 +52,13 @@ At the moment I am building different C# projects for [s&box](https://sbox.game/
 
 ## Current Project
 
-### [MinimalRP](https://github.com/Weakmafaka/MinimalRP)
+### [MinimalRP](https://sbox.game/minimalinc/mrp)
 
 A large roleplay project for s&box and one of my main GameDev directions.
 
 I am working on gameplay systems, project architecture and the interactive world in C#. The project helps me deepen my understanding of game logic, scenes, components, UI and multiplayer-oriented development.
+
+[View the source repository on GitHub](https://github.com/Weakmafaka/MinimalRP)
 
 ## Toolkit
 
