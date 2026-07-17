@@ -2,7 +2,7 @@
 
 # Weakmafaka
 
-### Backend Developer · APIs · Automation
+### Backend Developer | APIs | Automation
 
 I build practical software with a focus on reliable backends, useful integrations and clean user experiences.
 
