@@ -58,8 +58,6 @@ A large roleplay project for s&box and one of my main GameDev directions.
 
 I am working on gameplay systems, project architecture and the interactive world in C#. The project helps me deepen my understanding of game logic, scenes, components, UI and multiplayer-oriented development.
 
-[View the source repository on GitHub](https://github.com/Weakmafaka/MinimalRP)
-
 ## Toolkit
 
 <p>
