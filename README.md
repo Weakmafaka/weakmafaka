@@ -2,9 +2,9 @@
 
 # Weakmafaka
 
-### Backend Developer | APIs | Automation
+### Backend Developer | APIs | Automation | GameDev
 
-I build practical software with a focus on reliable backends, useful integrations and clean user experiences.
+I build practical software with a focus on reliable backends, useful integrations and interactive experiences.
 
 <p>
   <a href="https://github.com/Weakmafaka">
@@ -27,8 +27,8 @@ I build practical software with a focus on reliable backends, useful integration
 
 - Backend services and APIs
 - Telegram bots and AI workflows
+- C# game development
 - Webhooks, payments and external APIs
-- React and TypeScript interfaces
 
 </td>
 <td width="50%" valign="top">
@@ -44,9 +44,25 @@ I build practical software with a focus on reliable backends, useful integration
 </tr>
 </table>
 
+## GameDev Direction
+
+I am actively working toward becoming a GameDev developer.
+
+At the moment I am building different C# projects for [s&box](https://sbox.game/dev/doc/), a Source 2-based game creation platform with a scene and component system, fast code hotloading and tools for multiplayer game development.
+
+## Current Project
+
+### [MinimalRP](https://github.com/Weakmafaka/MinimalRP)
+
+A large roleplay project for s&box and one of my main GameDev directions.
+
+I am working on gameplay systems, project architecture and the interactive world in C#. The project helps me deepen my understanding of game logic, scenes, components, UI and multiplayer-oriented development.
+
 ## Toolkit
 
 <p>
+  <img src="https://img.shields.io/badge/C%23-111827?style=flat-square&logo=csharp&logoColor=239120" alt="C#">
+  <img src="https://img.shields.io/badge/s%26box-111827?style=flat-square&logo=steam&logoColor=FFFFFF" alt="s&box">
   <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=3776AB" alt="Python">
   <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript">
   <img src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
