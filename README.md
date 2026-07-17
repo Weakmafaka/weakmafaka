@@ -76,7 +76,7 @@ I am working on gameplay systems, project architecture and the interactive world
 <tr>
 <td width="50%" valign="top">
 
-### [YantarickBot](https://github.com/Weakmafaka/YantarikBot)
+### [YantarikBot](https://github.com/Weakmafaka/YantarikBot)
 
 Telegram assistant for young parents with educational content, mini-games and an AI helper.
 
