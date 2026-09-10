@@ -1,106 +1,123 @@
 <div align="center">
 
-# Weakmafaka
+<img src="./banner.svg" width="100%" alt="Daniil — backend and game development">
 
-### Backend Developer | APIs | Automation | GameDev
+### Backend-разработчик, который движется в GameDev
 
-I build practical software with a focus on reliable backends, useful integrations and interactive experiences.
+Создаю прикладные backend-системы, Telegram-продукты и постепенно переношу этот
+опыт в разработку игровых механик, интерфейсов и многопользовательских миров.
 
 <p>
-  <a href="https://github.com/Weakmafaka">
-    <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://github.com/Weakmafaka?tab=repositories">
-    <img src="https://img.shields.io/badge/Projects-111827?style=for-the-badge&logo=github&logoColor=white" alt="Projects">
-  </a>
+  <a href="https://github.com/Weakmafaka?tab=repositories"><img src="https://img.shields.io/badge/Открытые_проекты-18181B?style=for-the-badge&logo=github&logoColor=white" alt="Открытые проекты"></a>
+  <a href="https://sbox.game/minimalinc/mrp"><img src="https://img.shields.io/badge/MinimalRP-7C3AED?style=for-the-badge&logo=steam&logoColor=white" alt="MinimalRP"></a>
 </p>
 
 </div>
 
----
+## Обо мне
+
+Я Даниил. Мне нравится превращать идею в работающий продукт: продумывать
+архитектуру, собирать понятный пользовательский сценарий, подключать внешние
+сервисы и доводить проект до развёртывания.
+
+Мой основной практический опыт сейчас связан с Python, асинхронными Telegram-
+ботами, PostgreSQL, API-интеграциями и Docker. Следующий большой вектор —
+разработка игр на C# и s&box: от отдельных компонентов до цельных игровых систем.
+
+```text
+продуктовая идея → архитектура → код → тестирование → запуск → развитие
+```
+
+## 🎮 Курс на GameDev
+
+Сейчас я целенаправленно развиваюсь в геймдеве и работаю над
+[MinimalRP](https://sbox.game/minimalinc/mrp) — крупным roleplay-проектом для
+[s&box](https://sbox.game/dev/doc/) на базе Source 2.
+
+В проекте я занимаюсь игровыми системами, архитектурой, интерактивным миром и
+логикой на C#. MinimalRP помогает мне глубже разбираться в компонентном подходе,
+сценах, UI и особенностях многопользовательской разработки.
+
+> **Текущий фокус:** создавать не только надёжные сервисы, но и игровые миры,
+> в которых техническая архитектура напрямую работает на опыт игрока.
+
+## 🚀 Публичные проекты
+
+Ниже представлены только репозитории, которые открыты для публичного просмотра.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-## About
+### 🎭 [Mafia](https://github.com/Weakmafaka/Mafia)
 
-- Backend services and APIs
-- Telegram bots and AI workflows
-- C# game development
-- Webhooks, payments and external APIs
+Telegram-игра в классическую «Мафию» с комнатами, распределением ролей, ночными
+ходами, дневным голосованием и системой рейтинга.
+
+**Что внутри:** игровая FSM, приватные действия игроков, ведущий раундов,
+PostgreSQL и контейнерное развёртывание.
+
+`Python` `aiogram` `PostgreSQL` `Docker`
 
 </td>
 <td width="50%" valign="top">
 
-## Working Style
+### 🧸 [Yantarik](https://github.com/Weakmafaka/Yantarik)
 
-- Keep solutions simple
-- Design for real users
-- Automate repetitive work
-- Ship, learn and improve
+Telegram-помощник для родителей с развивающим контентом, мини-играми,
+AI-помощником и подписной моделью.
+
+**Что внутри:** платежи через YooKassa, webhooks, роли, контентная система,
+объектное хранилище и управляемая выдача материалов.
+
+`Python` `aiogram` `YooKassa` `S3`
 
 </td>
 </tr>
 </table>
 
-## GameDev Direction
+> Публичный доступ к коммерческим проектам предоставлен для знакомства с кодом
+> в рамках портфолио. Условия использования указаны в лицензии каждого проекта.
 
-I am actively working toward becoming a GameDev developer.
-
-At the moment I am building different C# projects for [s&box](https://sbox.game/dev/doc/), a Source 2-based game creation platform with a scene and component system, fast code hotloading and tools for multiplayer game development.
-
-## Current Project
-
-### [MinimalRP](https://sbox.game/minimalinc/mrp)
-
-A large roleplay project for s&box and one of my main GameDev directions.
-
-I am working on gameplay systems, project architecture and the interactive world in C#. The project helps me deepen my understanding of game logic, scenes, components, UI and multiplayer-oriented development.
-
-## Toolkit
-
-<p>
-  <img src="https://img.shields.io/badge/C%23-111827?style=flat-square&logo=csharp&logoColor=239120" alt="C#">
-  <img src="https://img.shields.io/badge/s%26box-111827?style=flat-square&logo=steam&logoColor=FFFFFF" alt="s&box">
-  <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=3776AB" alt="Python">
-  <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript">
-  <img src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Telegram-111827?style=flat-square&logo=telegram&logoColor=26A5E4" alt="Telegram">
-  <img src="https://img.shields.io/badge/API_Integrations-111827?style=flat-square&logo=fastapi&logoColor=009688" alt="API integrations">
-</p>
-
-## Selected Work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [YantarikBot](https://github.com/Weakmafaka/YantarikBot)
-
-Telegram assistant for young parents with educational content, mini-games and an AI helper.
-
-**Highlights:** payments, webhooks, external storage and configurable content delivery.
-
-</td>
-<td width="50%" valign="top">
-
-### [AutoShopApi](https://github.com/Weakmafaka/AutoShopApi)
-
-Backend API project focused on structuring application logic and service integrations.
-
-**Focus:** APIs, data flow and maintainable backend architecture.
-
-</td>
-</tr>
-</table>
-
-## Let's Connect
-
-The fastest way to reach me is through [GitHub](https://github.com/Weakmafaka).
+## 🧰 Технологии и инструменты
 
 <div align="center">
 
-<sub>Building useful things, one thoughtful commit at a time.</sub>
+**Backend и данные**
+
+![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=FFD43B)
+![C#](https://img.shields.io/badge/C%23-111827?style=for-the-badge&logo=csharp&logoColor=9B4F96)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=58A6FF)
+![REST API](https://img.shields.io/badge/REST_API-111827?style=for-the-badge&logo=fastapi&logoColor=00C7B7)
+
+**Продукты и инфраструктура**
+
+![Telegram](https://img.shields.io/badge/Telegram_Bots-111827?style=for-the-badge&logo=telegram&logoColor=26A5E4)
+![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
+![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
+
+**GameDev**
+
+![s&box](https://img.shields.io/badge/s%26box-7C3AED?style=for-the-badge&logo=steam&logoColor=white)
+![Source 2](https://img.shields.io/badge/Source_2-7C3AED?style=for-the-badge&logo=steam&logoColor=white)
+
+</div>
+
+## Что мне интересно
+
+- проектирование игровых механик и систем взаимодействия;
+- backend для продуктов с реальными пользователями;
+- асинхронная обработка событий и интеграции;
+- автоматизация рутинных процессов;
+- надёжное развёртывание и поддержка проектов.
+
+---
+
+<div align="center">
+
+### От сервисов, которые работают, — к мирам, в которых хочется остаться.
+
+[GitHub](https://github.com/Weakmafaka) · [MinimalRP](https://sbox.game/minimalinc/mrp)
 
 </div>
