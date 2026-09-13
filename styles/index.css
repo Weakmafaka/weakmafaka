@@ -832,6 +832,7 @@ header {
 .tool-logo {
   width: 120px;
   height: 120px;
+  object-fit: contain;
 }
 
 .card-3 .card-stripe {
